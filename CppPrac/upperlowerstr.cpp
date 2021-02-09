@@ -11,9 +11,7 @@ int main(){
         else if (s1.at(i)>=65&&s1.at(i)<=96)
         {
            s1.at(i)=s1.at(i)+32;
-        }
-        
-        
+        }  
     }
     cout<<s1<<endl;
     return 0;
