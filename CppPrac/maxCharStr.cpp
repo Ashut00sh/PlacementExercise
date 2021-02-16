@@ -2,22 +2,22 @@
 #include<iostream>
 using namespace std;
 string getMaxChar(string s){
-    int cnt[2]={0};
+    int cnt[256]={0};
     // for (int i = 0; i < 2; i++)
     // {
     //     cout<<"value of cnt is ="<<cnt[i];
     // }
     int max=0;
-    string result;
+    string result=" ";
     for (int i = 0; i < s.length(); i++)
     {
-        cnt[s[i]]++;
-        if (max>cnt[s[i]])
+        
+        if (max<cnt[s[i]])
         {
             max=cnt[s[i]];
             result=cnt[s[i]];
         }
-        
+        cnt[s[i]]++;
     }
     return result;
 }
