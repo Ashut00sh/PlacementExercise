@@ -5,6 +5,7 @@ public class maxcharoccur {
         System.out.println("Enter string");
         String st = sc.nextLine();
         //to remove white space in string
+        //if you give multiple white space o/p wan't get print
         String str=st.replaceAll("\\s","");
         System.out.println(" after remove white space======= "+str);
        // String str="max repeating char";
