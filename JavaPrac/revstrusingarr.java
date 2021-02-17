@@ -14,6 +14,8 @@ public class revstrusingarr{
         for (int i = 0; i < st.length(); i++) {
             System.out.print(arr[i]);
         }
+        System.out.println();
+        System.out.println("string remains same= "+st);
         sc.close();
     }
 }
