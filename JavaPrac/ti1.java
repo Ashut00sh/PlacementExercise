@@ -1,11 +1,8 @@
-class foo{
-    public static void  show(){
-        System.out.println("static method called");
-    }
-}
+
 class ti1{
     public static void main(String[] args) {
-        // foo f=null;
-        // f.show();
-    }
-}
+        
+              // \u000d  System.out.println("H" + "a");
+                System.out.print('H' + 'a');
+            }
+        }
