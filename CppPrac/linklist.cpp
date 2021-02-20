@@ -51,7 +51,6 @@ class LinkList{
               //  cout<<"kuth6"<<endl;
                 n->setNext(nullptr);
               //  cout<<"ka re ha durava"<<endl;
-            
         }
     }
     void display(){
