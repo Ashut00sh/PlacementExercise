@@ -3,7 +3,7 @@ public class demo3{
     public static void main(String[] args) {
         //System.out.println(0.0%0.0!=0.0/0.0);
         for (int i = 0; i < 3; i++) {
-            switch (1) {
+            switch (i) {
                 case 0:
                     break;
                     case 1:System.out.println("one");
