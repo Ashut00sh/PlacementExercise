@@ -37,6 +37,11 @@ class Bst{
     Bst(){
         root=prev=next=nullptr;
     }
+    //define get root method to get root 
+    //in main to call preorder
+    Node *getRoot(){
+        return root;
+    }
     void insert(int data){
         Node *node=new Node(data);
         if (root==nullptr)
@@ -64,14 +69,14 @@ class Bst{
         }
         
     }
-    void display(){
-        cout<<"preorder element"<<endl;
-        preOrder(root);
-        cout<<"postorder element"<<endl;
-        PostOrder(root);
-        cout<<"inorder element"<<endl;
-        InOrder(root);
-    }
+    // void display(){
+    //     cout<<"preorder element"<<endl;
+    //     preOrder(root);
+    //     cout<<"postorder element"<<endl;
+    //     PostOrder(root);
+    //     cout<<"inorder element"<<endl;
+    //     InOrder(root);
+    // }
     void preOrder(Node *temp){
         if (temp==nullptr)
         {
@@ -114,6 +119,14 @@ int main(){
         t.insert(m);
         n--;
     }
-    t.display();
+    cout<<"preorder of elements "<<endl;
+    t.preOrder(t.getRoot());
+    cout<<endl;
+    cout<<"in order of elements "<<endl;
+    t.InOrder(t.getRoot());
+    cout<<endl;
+    cout<<"post order of elements "<<endl;
+    t.PostOrder(t.getRoot());
+    cout<<endl;
     return 0;
 }
