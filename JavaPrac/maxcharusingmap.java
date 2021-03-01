@@ -8,6 +8,7 @@ public class maxcharusingmap {
         //create hash map to get associative array
         HashMap<Character,Integer>hm=new HashMap<>();
         //convert string into char array
+        //removing space in string
         char[]c=str.replaceAll("\\s", "").toCharArray();
         for (char d : c) {
             if (hm.containsKey(d)) {
