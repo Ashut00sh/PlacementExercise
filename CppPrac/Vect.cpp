@@ -8,6 +8,7 @@ int main(){
     for (int i = 0; i < 5; i++)
     {
         cin>>x;
+        
         v.push_back(x);
     }
     vector<int>::iterator itr;
@@ -19,6 +20,7 @@ int main(){
     {
         cout<<*itr<<" ";
     }
+    
     cout<<endl;
     //Sort(v.begin(),v.end());
     return 0;

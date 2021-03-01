@@ -14,8 +14,8 @@ class HashMap1{
         System.out.println("hash map");
         //System.out.println(hm.entrySet());
         for(Entry<String,Integer> e:entry){
-            //System.out.println(e.setValue(e.getValue()*10));
-          //  System.out.println(e.getValue());
+            System.out.println(e.setValue(e.getValue()*10));
+            System.out.println(e.getValue());
         }
         System.out.println(getHash("cat"));
         // System.out.println();

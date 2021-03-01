@@ -12,5 +12,7 @@ public class removewhitespacestr {
             }    
         }
         System.out.println(" "+st1);
+        sc.close();
     }
+    
 }
