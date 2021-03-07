@@ -7,7 +7,7 @@ abstract class Abc{
 public class AbstractDemo extends Abc{
     public static void main(String[] args) {
         AbstractDemo obj=new AbstractDemo();
-        //obj.show();
+        obj.show();
     }
 
     @Override
