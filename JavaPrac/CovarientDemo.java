@@ -19,7 +19,7 @@ public class CovarientDemo {
        A t1=new A();
        System.out.println(t1.get());
        System.out.println(t.get());
-       //get method retun oblect 
+       //get method retun object 
        //we can call show method on get 
        new B().get().show();
    } 
