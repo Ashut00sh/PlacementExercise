@@ -6,6 +6,8 @@ abstract class Abc{
 }
 public class AbstractDemo extends Abc{
     public static void main(String[] args) {
+        //when we create obj of extended class then 
+        //abstract cnstr get called
         AbstractDemo obj=new AbstractDemo();
         obj.show();
     }
